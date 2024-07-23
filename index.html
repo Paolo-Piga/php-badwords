@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Bad Words</title>
+  </head>
+  <body>
+    <form action="form-result.php" method="post">
+      <label for="text">Inserisci la frase da stampare</label> 
+      <br>
+      <textarea
+        name="phrase"
+        id="text"
+        placeholder="Inserisci frase"
+      ></textarea>
+      <br>
+      <label for="bad-word">Inserisci la parola da bannnare</label> <br />
+      <input type="text" id="bad-word" placeholder="Bad Word" name="bad-word" />
+      <br>
+      <button type="submit">Invia</button>
+    </form>
+  </body>
+</html>
